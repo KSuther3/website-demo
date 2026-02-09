@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Kamron Sutherland">
+    <meta name="description" content="Introductory website created for my web design course">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+    /* ===== Internal Stylesheet ===== */
+    /* Center the page on screen */
+    body {
+        width: 1000px;
+        margin: auto;
+        background-color: #001f3f; /* Navy blue background */
+        color: #FFF;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Headings */
+    h1 { color: #FFD700; text-align: center; }
+    h2 { color: #FFDC00; margin-bottom: 15px; }
+
+    /* Paragraphs */
+    p { font-size: 16px; line-height: 1.5em; margin: 10px 0; text-align: left; }
+
+    /* Images */
+    img { max-width: 100%; height: auto; margin: 10px 0; }
+
+    /* Header */
+    header { background-color: #003366; color: #FFF; padding: 20px; text-align: center; }
+
+    /* Navigation */
+    nav {
+        background-color: #00509e;
+        text-align: center;
+        padding: 12px;
+    }
+    nav a {
+        color: #FFD700;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    /* Main content */
+    main {
+        background-color: #001f3f;
+        padding: 20px;
+        text-align: left; /* Undo centering */
+    }
+
+    /* Footer */
+    footer {
+        background-color: #003366;
+        color: #FFF;
+        font-size: 12px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* ===== ID Selectors ===== */
+    #wrapper { border: 2px solid #FFD700; padding: 5px; }
+    #social { background-color: #004080; color: #FFD700; text-align: center; padding: 10px; margin-top: 10px; }
+
+    /* ===== Class Selectors ===== */
+    .important { color: #FF4136; font-weight: bold; }
+    .highlight { background-color: #FFDC00; color: #001f3f; padding: 2px 4px; }
+    </style>
+</head>
+
+<body>
+<div id="wrapper">
+    <!-- Header Section -->
+    <header>
+        Logo and other info
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="http://www.google.com">Google</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is <span class="important">Kamron Sutherland</span>.<br>
+            I am a student interested in <i>web design and development</i>.
+        </p>
+
+        <p>
+            This website is being created as part of my web design course.<br>
+            Over the next few weeks, I will continue improving this site.
+        </p>
+
+        <p>
+            I hope to create a professional website I would feel confident showing to an employer.
+        </p>
+
+        <!-- Image Section -->
+        <div>
+            <a href="https://github.com/KSuther3/website-demo/blob/main/profile.jpg">
+                <img src="https://github.com/KSuther3/website-demo/blob/main/profile.jpg" alt="Photo of Kamron Sutherland" width="300">
+            </a>
+        </div>
+
+        <!-- Social Section -->
+        <div id="social">
+            Follow me: Facebook | Twitter | YouTube
+        </div> <!-- /social -->
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <p>Email me: <a href="mailto:ksuther2@student.scf.edu">ksuther2@student.scf.edu</a></p>
+        <p>Call or text: <a href="tel:9414836632">(941) 483-6632</a></p>
+        <p>Copyright &copy; 2026 Kamron Sutherland</p>
+    </footer>
+</div> <!-- /wrapper -->
+</body>
+</html>
