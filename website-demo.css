@@ -1,0 +1,124 @@
+/* ===== External CSS: styles.css ===== */
+
+/* Box-sizing for easier column sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Center page and set basic body styles */
+body {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #001f3f; /* Navy blue background */
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: #FFD700;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFD700;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #FFD700;
+    color: #001f3f;
+}
+
+nav .selected {
+    background-color: #808080;
+    color: #FFF;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Columns */
+.column-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    min-width: 250px;
+    background-color: #00264d;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Headings */
+h1 { color: #FFD700; text-align: center; }
+h2 { color: #FFDC00; margin-bottom: 10px; }
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: #FFF;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* IDs */
+#wrapper {
+    border: 2px solid #FFD700;
+    padding: 5px;
+}
+
+#social {
+    background-color: #004080;
+    color: #FFD700;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Classes */
+.important { color: #FF4136; font-weight: bold; }
+.highlight { background-color: #FFDC00; color: #001f3f; padding: 2px 4px; }
+
+/* Abbreviation */
+abbr {
+    border-bottom: 1px dotted #FFD700;
+    cursor: help;
+}

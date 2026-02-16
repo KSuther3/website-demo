@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Resume - Kamron Sutherland</title>
+    <meta name="author" content="Kamron Sutherland">
+    <meta name="description" content="Professional Resume for Kamron Sutherland, highlighting Education, Work Experience, Skills, and References for entry-level retail positions">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+    <!-- Header Section -->
+    <header>
+        Kamron Sutherland - Entry-Level Retail Associate
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.htm" class="selected">Resume</a></li>
+            <li><a href="portfolio.htm">Portfolio</a></li>
+            <li><a href="newsletter.htm">Newsletter</a></li>
+            <li><a href="contact.htm">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Resume Content -->
+    <main>
+        <aside>
+            <h2>Contact Info</h2>
+            <address>
+                Bradenton, FL 34210<br>
+                <a href="mailto:ksuther2@student.scf.edu">ksuther2@student.scf.edu</a>
+            </address>
+            <h2>Skills</h2>
+            <p>Customer Service, Cash Handling, Inventory Management, Team Collaboration, Point-of-Sale Systems</p>
+        </aside>
+
+        <section>
+            <h1>Resume of Kamron Sutherland</h1>
+
+            <h2>Education</h2>
+            <p>2025-Present: State College of Florida – Associate of Arts</p>
+            <p>2021-2025: North Port High School – High School Diploma</p>
+
+            <h2>Work Experience</h2>
+            <p>2025-Present: Sales Associate, Retail Solutions Inc.<br>
+            Responsibilities: Assisting customers, operating cash register, stocking shelves, maintaining store appearance.</p>
+            <p>2024-2025: Part-Time Assistant, Local Grocery Store<br>
+            Responsibilities: Customer service, bagging groceries, organizing displays.</p>
+
+            <h2>Certifications</h2>
+            <p>Food Handler Safety Certification</p>
+            <p>CPR/First Aid</p>
+
+            <h2>References</h2>
+            <p>John Doe – Supervisor – Retail Solutions Inc.<br>
+            Email: john.doe@example.com<br>
+            Phone: (941) 555-1234</p>
+
+            <h2>Portfolio</h2>
+            <p>Available upon request or online at <a href="portfolio.htm">Portfolio Page</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Email: <a href="mailto:ksuther2@student.scf.edu">ksuther2@student.scf.edu</a> | Phone: (941) 483-6632</p>
+        <p>Copyright &copy; 2026 Kamron Sutherland</p>
+    </footer>
+</div> <!-- close wrapper -->
+</body>
+</html>
