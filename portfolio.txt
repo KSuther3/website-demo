@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Portfolio - Kamron Sutherland</title>
+<meta name="author" content="Kamron Sutherland">
+<meta name="description" content="Portfolio of web development and design work by Kamron Sutherland">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="website-demo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<header>
+Kamron Sutherland - Entry-Level Web Page Developer
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="resume.htm">Resume</a></li>
+<li><a href="portfolio.htm" class="selected">Portfolio</a></li>
+<li><a href="newsletter.htm">Newsletter</a></li>
+<li><a href="contact.htm">Contact</a></li>
+</ul>
+</nav>
+
+<main>
+
+<h1>Portfolio</h1>
+
+<div class="portfolio-container">
+
+<div class="portfolio-item">
+<a href="portfolio1.jpg">
+<img src="portfolio1.jpg" alt="Project Example 1">
+</a>
+<p>Image 1: A New Bay Boat to Love</p>
+</div>
+
+<div class="portfolio-item">
+<a href="portfolio2.jpg">
+<img src="portfolio2.jpg" alt="Project Example 2">
+</a>
+<p>Image 2: The Ideal Boat to Own</p>
+</div>
+
+<div class="portfolio-item">
+<a href="portfolio3.jpg">
+<img src="portfolio3.jpg" alt="Project Example 3">
+</a>
+<p>Image 3: Boat for Liveabord Comfort</p>
+</div>
+
+<div class="portfolio-item">
+<a href="portfolio4.jpg">
+<img src="portfolio4.jpg" alt="Project Example 4">
+</a>
+<p>Image 4: Life Proof Boat - Virtually Unsinkable</p>
+</div>
+
+</div>
+
+</main>
+
+<footer>
+<p>
+Email: <a href="mailto:ksuther2@student.scf.edu">ksuther2@student.scf.edu</a> |
+Phone: (941) 483-6632
+</p>
+<p>Copyright &copy; 2026 Kamron Sutherland</p>
+</footer>
+
+</div>
+
+</body>
+</html>
