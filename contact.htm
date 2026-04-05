@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact Kamron Sutherland</title>
+    <meta name="author" content="Kamron Sutherland">
+    <meta name="description" content="Contact Kamron Sutherland for web development inquiries or questions.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="website-demo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="wrapper">
+
+<header>
+    Kamron Sutherland - Entry-Level Web Page Developer
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.htm">Resume</a></li>
+        <li><a href="portfolio.htm">Portfolio</a></li>
+        <li><a href="newsletter.htm">Newsletter</a></li>
+        <li><a href="contact.htm" class="selected">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+<section>
+
+<!-- Formspree Form -->
+<form action="https://formspree.io/f/xaqlaqgv" method="POST" onsubmit="return validateEmail();">
+
+    <!-- Optional redirect to thank-you page -->
+    <input type="hidden" name="_next" value="contactSent.htm">
+
+    <table>
+
+        <tr>
+            <th colspan="2">Contact Kamron Sutherland</th>
+        </tr>
+
+        <tr>
+            <td style="text-align:right">First Name <span class="required">*</span></td>
+            <td><input type="text" name="FirstName" id="FirstName" size="40" required></td>
+        </tr>
+
+        <tr>
+            <td style="text-align:right">Last Name <span class="required">*</span></td>
+            <td><input type="text" name="LastName" id="LastName" size="40" required></td>
+        </tr>
+
+        <tr>
+            <td style="text-align:right">City</td>
+            <td><input type="text" name="City" id="City" size="40"></td>
+        </tr>
+
+        <tr>
+            <td style="text-align:right">State (ST)</td>
+            <td>
+                <select name="State" id="State">
+                    <option value="FL" selected>Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="AL">Alabama</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="text-align:right">Zip Code</td>
+            <td><input type="text" name="Zip" id="Zip" pattern="[0-9]{5}" title="Five digit zip code"></td>
+        </tr>
+
+        <tr>
+            <td style="text-align:right">Email <span class="required">*</span></td>
+            <td><input type="email" name="Email" id="Email" size="40" required></td>
+        </tr>
+
+        <tr>
+            <td style="text-align:right">Gender</td>
+            <td>
+                <fieldset>
+                    <legend>Select One</legend>
+                    <input type="radio" name="Gender" id="M" value="M"> Male
+                    <input type="radio" name="Gender" id="F" value="F"> Female
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="text-align:right">Education</td>
+            <td>
+                H.S. <input type="checkbox" name="HS" value="HS">
+                College <input type="checkbox" name="College" value="College">
+            </td>
+        </tr>
+
+        <tr>
+            <td style="text-align:right">Comments</td>
+            <td>
+                <textarea name="Comments" cols="40" rows="4" placeholder="Enter feedback here"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="text-align:right">Required Fields</td>
+            <td>
+                <span class="required">*</span> indicates required information<br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+
+    </table>
+
+</form>
+
+</section>
+</main>
+
+<footer>
+    <p>
+        Email: <a href="mailto:ksuther2@student.scf.edu">ksuther2@student.scf.edu</a> |
+        Phone: (941) 483-6632
+    </p>
+    <p>Copyright &copy; 2026 Kamron Sutherland</p>
+</footer>
+
+</div> <!-- close wrapper -->
+
+<script>
+function validateEmail() {
+    const email = document.getElementById('Email').value;
+    if (!email.includes('@')) {
+        alert('Please enter a valid email address containing "@"');
+        return false; // Prevent form submission
+    }
+    return true; // Allow submission
+}
+</script>
+
+</body>
+</html>
