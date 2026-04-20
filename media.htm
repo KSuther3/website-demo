@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Media page showcasing audio, video, animations, embeds, and interactive content for my website project.">
+    <title>Media Page - Website Demo</title>
+
+    <link rel="stylesheet" href="Website-demo.css">
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <!-- HEADER -->
+    <header>
+        My Website Media Gallery
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="media.htm">Media</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1>Media Page</h1>
+
+        <!-- #1 AUDIO FILE -->
+        <section>
+            <h2>#1 Audio File</h2>
+            <p>Custom audio file created for this website project.</p>
+
+            <audio controls autoplay>
+                <source src="Record-7.mp3" type="audio/mpeg">
+                <source src="audio-sample.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <!-- #2 VIDEO FILE -->
+        <section>
+            <h2>#2 Video File</h2>
+            <p>Original welcome video created for this site.</p>
+
+            <video width="640" height="360" controls>
+                <source src="welcome-video.mp4" type="video/mp4">
+                <source src="welcome-video.mov" type="video/quicktime">
+                <source src="welcome-video.wmv" type="video/x-ms-wmv">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!-- #3 ANIMATED GIF -->
+        <section>
+            <h2>#3 Animated GIF</h2>
+            <p>Custom animated GIF created for this website.</p>
+
+            <img src="animation.gif" alt="Animated GIF Example">
+        </section>
+
+        <!-- #4 SLIDESHOW -->
+        <section>
+            <h2>#4 Image Slideshow</h2>
+
+            <img id="slide" src="slide1.jpg" width="600" alt="Slideshow Image">
+
+            <script>
+                let images = ["slide1.jpg", "slide2.jpg", "slide3.jpg"];
+                let index = 0;
+
+                setInterval(function () {
+                    index = (index + 1) % images.length;
+                    document.getElementById("slide").src = images[index];
+                }, 3000);
+            </script>
+        </section>
+
+        <!-- #5 IMAGE MAP -->
+        <section>
+            <h2>#5 Image Map Hotspot</h2>
+
+            <img src="map-image.jpg" usemap="#site-map" width="600" alt="Image Map">
+
+            <map name="site-map">
+                <area shape="rect" coords="0,0,200,200" href="index.html" alt="Home">
+                <area shape="circle" coords="400,150,80" href="media.htm" alt="Media Page">
+            </map>
+        </section>
+
+        <!-- #6 YOUTUBE -->
+        <section>
+            <h2>#6 YouTube Video</h2>
+
+            <p><strong>My Girlfriend's Experimental Vlog</strong></p>
+
+            <iframe width="640" height="360"
+                src="https://www.youtube.com/embed/ddw5ivNMhlM?start=91"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <!-- #7 RSS FEED -->
+        <section>
+            <h2>#7 RSS Feed</h2>
+
+            <iframe 
+                src="https://rss.app/embed/v1/wall/GNiINCosTkKQ8G3b"
+                width="100%" 
+                height="600"
+                frameborder="0">
+            </iframe>
+
+        </section>
+
+        <!-- #8 Z-INDEX STACK -->
+        <section>
+            <h2>#8 Z-Index Image Stack</h2>
+
+            <div id="image-stack">
+                <img id="img1" src="img1.jpg" alt="Image 1">
+                <img id="img2" src="img2.jpg" alt="Image 2">
+            </div>
+        </section>
+
+        <!-- #9 SOCIAL MEDIA -->
+        <section>
+            <h2>#9 Social Media Embed</h2>
+
+            <blockquote class="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/p/C5Q-utCua_c/"
+                data-instgrm-version="14">
+            </blockquote>
+
+            <script async src="https://www.instagram.com/embed.js"></script>
+        </section>
+
+        <!-- #10 EXTRA MEDIA -->
+        <section>
+            <h2>#10 Extra Media Item</h2>
+
+            <audio controls>
+                <source src="back_in_black_acdc.mp3" type="audio/mpeg">
+                Your browser does not support MIDI playback.
+            </audio>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Your Name | Media Page</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
